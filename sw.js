@@ -1,5 +1,5 @@
 // Change le numéro de version à chaque mise à jour pour forcer le rafraîchissement du cache.
-const CACHE = 'lecteur-v3';
+const CACHE = 'lecteur-v4';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'wolf-bg.webp', 'wolf-disc.webp', 'wolf-frame.webp', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
 

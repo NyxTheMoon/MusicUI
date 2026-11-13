@@ -1,7 +1,7 @@
 {
   "name": "音楽 Lecteur",
   "short_name": "Lecteur",
-  "description": "Lecteur de musique local (MP4, M4A, MP3…)",
+  "description": "Lecteur de musique local : MP3, M4A, MP4, FLAC… égaliseur, paroles, favoris",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",
@@ -33,5 +33,28 @@
   "categories": [
     "music",
     "entertainment"
-  ]
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "audio/*": [
+          ".mp3",
+          ".m4a",
+          ".aac",
+          ".wav",
+          ".ogg",
+          ".opus",
+          ".flac"
+        ],
+        "video/mp4": [
+          ".mp4",
+          ".m4v"
+        ]
+      }
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
 }
