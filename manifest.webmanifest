@@ -1,7 +1,7 @@
 {
-  "name": "音楽 Lecteur",
-  "short_name": "Lecteur",
-  "description": "Lecteur de musique local : MP3, M4A, MP4, FLAC… égaliseur, paroles, favoris",
+  "name": "MusicUI",
+  "short_name": "MusicUI",
+  "description": "Lecteur de musique local (MP4, M4A, MP3…)",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",
@@ -23,38 +23,10 @@
       "purpose": "any"
     },
     {
-      "src": "icon-maskable-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "id": "./",
-  "categories": [
-    "music",
-    "entertainment"
-  ],
-  "file_handlers": [
-    {
-      "action": "./",
-      "accept": {
-        "audio/*": [
-          ".mp3",
-          ".m4a",
-          ".aac",
-          ".wav",
-          ".ogg",
-          ".opus",
-          ".flac"
-        ],
-        "video/mp4": [
-          ".mp4",
-          ".m4v"
-        ]
-      }
-    }
-  ],
-  "launch_handler": {
-    "client_mode": "navigate-existing"
-  }
+  ]
 }
